@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/Gonza-wf/Conexiones0', // <--- Añade esta línea
+  base: '/Conexiones0/', // <--- Añade esta línea
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
