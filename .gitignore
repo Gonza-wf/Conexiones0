@@ -1,0 +1,16 @@
+# Dependencias (lo más pesado)
+node_modules/
+.pnpm-store/
+
+# Construcción
+dist/
+build/
+
+# Variables de entorno (Seguridad)
+.env
+.env.local
+
+# Logs y temporales
+npm-debug.log*
+yarn-error.log*
+.DS_Store
